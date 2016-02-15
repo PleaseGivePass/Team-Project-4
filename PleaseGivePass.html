@@ -14,9 +14,16 @@
 
   .jumbotron {
 
-    background-color: #ED37E7;
-    margin-bottom: 0;
-   
+    background-image: url("pics/jbt.jpg");
+    margin: 0 ;
+
+  }
+  .imagen {
+
+      padding-top: 10px;
+      padding-left: 20px;
+      padding-right: 0;
+      padding-bottom: 0;
   }
 
   </style>
@@ -24,9 +31,33 @@
 </head>
 <body>
 
-<div class="container">
+
   <div class="jumbotron">
-      <h2>PleaseGivemePass</h2> 
+    <div class="container">
+      <h2></h2>
+      <a class="imagen"href="#">
+      <img src="pics/logo.jpg" alt="Logo" width="250" height="90">
+      </a>
+
+      <!--<div class="btn-group" role="group" arial-label="...">
+        <button type="button" class="btn btn-danger">Action</button>
+        <button type="button" class="btn btn-danger-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           <span class="caret"></span>
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Action</a></li>
+    <li><a href="#">Another action</a></li>
+    <li><a href="#">Something else here</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#">Separated link</a></li>
+  </ul>
+    <button type="button" class="btn btn-primary">Primary<button>
+      <button type="button" class="btn btn-success">Success<button>-->
+</div>
+
+
+      </div> 
   </div>
 </div>
 
@@ -34,14 +65,77 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">PleaseGivePass</a>
+    
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span clsss="icon-bar"></span>
+      <span clsss="icon-bar"></span>
+      <span clsss="icon-bar"></span>
+    </button>
     </div>
 
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Food</a></li>
-      <li><a href="#">Drinks</a></li>
-      <li><a href="#">Bakery</a></li>
-      <li><a href="#">Baby & Kids</a></li>
+      <li class="active"><a href="PleaseGivePass.html">Home</a></li>
+      
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Food<b class=""></b></a>
+    <ul class="dropdown-menu">
+      
+      <li><a href="#">Rice & Pasta</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Cooking Ingredients</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Crisps, Nuts & Crackers</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Home Baking & Deserts</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Sweets, Choclate & Biscuits</a></li>
+    </ul>
+      <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Drinks<b class=""></b></a>
+    <ul class="dropdown-menu">
+      
+      <li><a href="#">Rice & Pasta</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Cooking Ingredients</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Crisps, Nuts & Crackers</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Home Baking & Deserts</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Sweets, Choclate & Biscuits</a></li>
+    </ul>
+      <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Bakery<b class=""></b></a>
+    <ul class="dropdown-menu">
+      
+      <li><a href="#">Rice & Pasta</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Cooking Ingredients</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Crisps, Nuts & Crackers</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Home Baking & Deserts</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Sweets, Choclate & Biscuits</a></li>
+      </ul>
+
+      <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Babys & Todles<b class=""></b></a>
+    <ul class="dropdown-menu">
+      
+      <li><a href="#">Rice & Pasta</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Cooking Ingredients</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Crisps, Nuts & Crackers</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Home Baking & Deserts</a></li>
+      <li role="separator" class="divider"></li>
+      <li><a href="#">Sweets, Choclate & Biscuits</a></li>
+    </ul>
+      
+
     </ul>
   </div>
 </nav>
@@ -70,7 +164,7 @@
 
     <div class="item">
   <a href="###" class="thumbnail">
-           <img src="pics/rsz_crsl2.jpg" alt="Fruits & Vegetables">
+           <img src="pics/rsz_f&veg.jpg" alt="Fruits & Vegetables">
   </a>
       <div class="carousel-caption">
         <h3>Fruits & Vegetables</h3>
@@ -80,7 +174,7 @@
 
     <div class="item">
   <a href="###" class="thumbnail">
-      <img src="pics/rsz_crsl3.jpg" alt="Drinks">
+      <img src="pics/rsz_drcrsl.jpg" alt="Drinks">
   </a>
       <div class="carousel-caption">
         <h3>Drinks</h3>
