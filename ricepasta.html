@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Food - PleaseGivePass</title>
+  <title>Rice & Pasta - GivePass</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -10,7 +10,19 @@
   <link href="css/custom.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
+  <!--[if IE]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
   <style>
+
+   article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+html, body, div, h3, p, ul, li,img {
+  margin:0;
+  padding:0;
+
+}
 
   .jumbotron {
   
@@ -30,21 +42,17 @@
   }
   
   
-  .navbar-inner{
   
-    background: none ;
-    filter : none :
-    border: none ;
-    box-shadow: none ;
-  
-  
-  }
 
   .nav li  {
 
-    width: 140px;
+  width: 150px;
+
+
     
   }
+
+  
 
   .btn-group {
 
@@ -71,10 +79,51 @@
 
   }
 
-  
+.container{
 
+  width:900px ;
+  margin: 30px auto 0;
+}
+
+.header h3 {
+
+  color: #ffcc00
+  text: center;
+  font-size: 18px;
+  word-spacing: 2px;
+  text-shadow:1px 1px 2px #000;
+}
   
+  .gallery ul{
+
+    list-style:  none;
+
+  }
+
+.gallery li {
+
+  float: left;
+  margin: 20px;
+}  
   
+  #content {
+  background:#a7blc5;
+  background: linear-gradient(to top, #848c9c 0%, #687080 50%, #a7blc5 100%);
+  padding-top:10px;
+  padding-bottom:10px;
+  overflow:hidden;
+}
+
+.gallery img {
+
+    display: block;
+    padding: 20px;
+}
+
+.navgation {
+
+  margin-left: 200px;
+}
 
   </style>
 
@@ -114,6 +163,7 @@
   </div>
 </div>
 
+<div class="navgation">
 <nav class="navbar navbar-inner">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -131,6 +181,7 @@
     </div>
 
     <ul class="nav navbar-nav">
+      
       <li class="active"><a href="PleaseGivePass.html">Home</a></li>
       
       <li class="dropdown">
@@ -196,6 +247,24 @@
     </ul>
   </div>
 </nav>
+</div>
+
+<div class="container">
+<header><h3></h3></header>
+    <section id="content">
+      <div class="gallery">
+      <ul>
+      <li><img src="food/rsz_1rice.jpg" width"100" height"100" alt="worrier"></a></li>
+      
+      <li><img src="food/rsz_spag.jpg" width"100" height"100" alt="worrier"></a></li>
+      <li><img src="food/rsz_rice2.jpg" width"100" height"100" alt="worrier"></a></li>
+      <li><img src="food/rsz_rice4.jpg" width"100" height"100" alt="worrier"></a></li>
+      </ul>
+      
+      </div>
+    </section>  
+
+
 
 
 </body>

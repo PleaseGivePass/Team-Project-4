@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Food - PleaseGivePass</title>
+  <title>Beer & Wine - GivePass</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
@@ -9,8 +9,19 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href="css/custom.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!--[if IE]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
   <style>
+
+   article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+html, body, div, h3, p, ul, li,img {
+  margin:0;
+  padding:0;
+
+}
 
   .jumbotron {
   
@@ -30,21 +41,17 @@
   }
   
   
-  .navbar-inner{
   
-    background: none ;
-    filter : none :
-    border: none ;
-    box-shadow: none ;
-  
-  
-  }
 
   .nav li  {
 
-    width: 140px;
+  width: 150px;
+
+
     
   }
+
+  
 
   .btn-group {
 
@@ -71,9 +78,86 @@
 
   }
 
+.container{
+
+  width:900px ;
+  margin: 30px auto 0;
+}
+
+.header h3 {
+
+  color: #ffcc00
+  text: center;
+  font-size: 18px;
+  word-spacing: 2px;
+  text-shadow:1px 1px 2px #000;
+}
+  
+  .gallery ul{
+
+    list-style:  none;
+
+  }
+
+.gallery li {
+
+  float: left;
+  margin: 20px;
+}  
+  
+  #content {
+  background:#a7blc5;
+  background: linear-gradient(to top, #848c9c 0%, #687080 50%, #a7blc5 100%);
+  padding-top:10px;
+  padding-bottom:10px;
+  overflow:hidden;
+}
+
+.gallery img {
+
+    display: block;
+    padding: 20px;
+}
+
+.thumbnail {
+
+  margin-left: 50px;
   
 
-  
+}
+
+.img {
+
+  width: 
+}
+
+.navgation {
+
+  margin-left: 200px;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 190px;
+} 
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc  {
+    padding: 15px;
+    text-align: center;
+}
+
+
+
   
 
   </style>
@@ -114,6 +198,7 @@
   </div>
 </div>
 
+<div class="navgation">
 <nav class="navbar navbar-inner">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -196,7 +281,40 @@
     </ul>
   </div>
 </nav>
+</div>
 
+<div class="container">
+<div class="img">
+  <a target="_blank" href="drink/rsz_hein.jpg">
+    <img src="drink/rsz_hein.jpg" alt="Beer" width="100" height="150">
+  </a>
+  <div class="desc">24 x 275</div>
+  <div class="desc">Heineken Lager</div>
+  <h1>£24.00</h1>
+</div>
+
+<div class="img">
+  <a target="_blank" href="drink/rsz_bud.jpg">
+    <img src="drink/rsz_bud.jpg" alt="Beer" width="100" height="150">
+  </a>
+  <div class="desc">Add a descripti</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="drink/rsz_1wine.jpg">
+    <img src="drink/rsz_1wine.jpg" alt="Beer" width="100" height="150">
+  </a>
+  <div class="desc">Add a descripti</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="drink/rsz_winwt.jpg">
+    <img src="drink/rsz_winwt.jpg" alt="Beer" width="100" height="150">
+  </a>
+  <div class="desc">Add a descripti ja fui maluco mais isso</div>
+</div>
+</div>
+</div>
 
 </body>
 </html>
