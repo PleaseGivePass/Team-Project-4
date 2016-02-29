@@ -10,6 +10,9 @@
   <link href="css/custom.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
+  
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
   <!--[if IE]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -120,10 +123,89 @@ html, body, div, h3, p, ul, li,img {
     padding: 20px;
 }
 
+.thumbnail {
+
+  margin-left: 50px;
+  
+
+}
+
+.img {
+
+  width: 
+}
+
 .navgation {
 
   margin-left: 200px;
 }
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 190px;
+} 
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc  {
+    
+    padding-top: 107px;
+    text-align: center;
+}
+
+div.price {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.make {
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+
+.btn {
+
+  background-color: green;
+  
+}
+
+div.desc2 {
+
+  padding-top: 107px;
+    text-align: center;
+}
+
+div.desc3 {
+
+  padding-top: 107px;
+    text-align: center;
+}
+
+div.desc4 {
+
+  padding-top: 39px;
+    text-align: center;
+}
+
+
+
+
+
 
   </style>
 
@@ -135,12 +217,9 @@ html, body, div, h3, p, ul, li,img {
 
     <div class="btn-group btn-group-lg" role="group" aria-label="...">
 
-      <button type="button" classe="btn btn-default">left-left</button>
-
-      <button type="button" classe="btn btn-default">middle</button>
-
-      <button type="button" classe="btn btn-default">right-right</button>
-
+     <button style="font-size:28px">Qty Cart<i class="fa fa-qtycart"></i></button>
+     
+      <button style="font-size:28px;color:red">Cart<i class="fa fa-shopping-cart"></i></button>
 
     </div>
 
@@ -251,20 +330,52 @@ html, body, div, h3, p, ul, li,img {
 
 <div class="container">
 <header><h3></h3></header>
-    <section id="content">
-      <div class="gallery">
-      <ul>
-      <li><img src="food/rsz_1rice.jpg" width"100" height"100" alt="worrier"></a></li>
-      
-      <li><img src="food/rsz_spag.jpg" width"100" height"100" alt="worrier"></a></li>
-      <li><img src="food/rsz_rice2.jpg" width"100" height"100" alt="worrier"></a></li>
-      <li><img src="food/rsz_rice4.jpg" width"100" height"100" alt="worrier"></a></li>
-      </ul>
-      
-      </div>
-    </section>  
+<div class="img"
+  <a target="_blank" href="food/rsz_1rice.jpg">
+    <img src="food/rsz_1rice.jpg" alt="Beer" width="100" height="150">
+  </a>
+  <div class="desc">10 kg</div>
+  <div class="make">Tild Basmati Rice</div>
+  <div class="price">£12.93</div>
+  <button class="btn">Add</button>
+</div>
 
+<div class="img">
+  <a target="_blank" href="food/rsz_rice2.jpg">
+    <img src="food/rsz_rice2.jpg" alt="Beer" width="100" height="150">
+  </a>
+  
+  <div class="desc2">500g</div>
+  <div class="make">Mexican Rice</div>
+  <div class="price">£1.95</div>
+  <button class="btn">Add</button>
 
+</div>
+
+<div class="img">
+  <a target="_blank" href="food/rsz_spag.jpg">
+    <img src="food/rsz_spag.jpg" alt="Beer" width="100" height="150">
+  </a>
+  
+  <div class="desc3">1 100g</div>
+  <div class="make">Spaghetti Sauce</div>
+  <div class="price">£0.99</div>
+  <button class="btn">Add</button>
+
+</div>
+
+<div class="img">
+  <a target="_blank" href="food/rsz_1colavita.jpg">
+    <img src="food/rsz_1colavita.jpg" alt="Beer" width="100" height="150">
+  </a>
+  
+  <div class="desc4">300g</div>
+  <div class="make">Colavita</div>
+  <div class="price">£2.90</div>
+  <button class="btn">Add</button>
+</div>
+</div>
+</div>
 
 
 </body>
