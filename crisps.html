@@ -10,6 +10,7 @@
   <link href="css/custom.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
+  
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!--[if IE]>
@@ -17,6 +18,14 @@
 <![endif]-->
 
   <style>
+
+   article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+html, body, div, h3, p, ul, li,img {
+  margin:0;
+  padding:0;
+
+}
 
   .jumbotron {
   
@@ -36,21 +45,17 @@
   }
   
   
-  .navbar-inner{
   
-    background: none ;
-    filter : none :
-    border: none ;
-    box-shadow: none ;
-  
-  
-  }
 
   .nav li  {
 
-    width: 140px;
+  width: 150px;
+
+
     
   }
+
+  
 
   .btn-group {
 
@@ -77,13 +82,130 @@
 
   }
 
-  .navgation {
+.container{
+
+  width:900px ;
+  margin: 30px auto 0;
+}
+
+.header h3 {
+
+  color: #ffcc00
+  text: center;
+  font-size: 18px;
+  word-spacing: 2px;
+  text-shadow:1px 1px 2px #000;
+}
+  
+  .gallery ul{
+
+    list-style:  none;
+
+  }
+
+.gallery li {
+
+  float: left;
+  margin: 20px;
+}  
+  
+  #content {
+  background:#a7blc5;
+  background: linear-gradient(to top, #848c9c 0%, #687080 50%, #a7blc5 100%);
+  padding-top:10px;
+  padding-bottom:10px;
+  overflow:hidden;
+}
+
+.gallery img {
+
+    display: block;
+    padding: 20px;
+}
+
+.thumbnail {
+
+  margin-left: 50px;
+  
+
+}
+
+.img {
+
+  width: 
+}
+
+.navgation {
 
   margin-left: 200px;
 }
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 190px;
+} 
 
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc  {
+    
+    padding-top: 107px;
+    text-align: center;
+}
+
+div.price {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.make {
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+
+.btn {
+
+  background-color: green;
   
-  
+}
+
+div.desc2 {
+
+  padding-top: 107px;
+    text-align: center;
+}
+
+div.desc3 {
+
+  padding-top: 108px;
+    text-align: center;
+}
+
+div.desc4 {
+
+  padding-top: 137px;
+    text-align: center;
+}
+
+
+
+
+
 
   </style>
 
@@ -95,10 +217,9 @@
 
     <div class="btn-group btn-group-lg" role="group" aria-label="...">
 
-      <button style="font-size:28px">Qty Cart<i class="fa fa-qtycart"></i></button>
+     <button style="font-size:28px">Qty Cart<i class="fa fa-qtycart"></i></button>
      
       <button style="font-size:28px;color:red">Cart<i class="fa fa-shopping-cart"></i></button>
-
 
     </div>
 
@@ -139,6 +260,7 @@
     </div>
 
     <ul class="nav navbar-nav">
+      
       <li class="active"><a href="PleaseGivePass.html">Home</a></li>
       
       <li class="dropdown">
@@ -204,6 +326,55 @@
     </ul>
   </div>
 </nav>
+</div>
+
+<div class="container">
+<header><h3></h3></header>
+<div class="img">
+   <a target="_blank" href="crisps/crisps.jpeg">
+    <img src="crisps/crisps.jpeg" alt="Crisps Walker">
+  </a>
+  <div class="desc"> 12 x 25g</div>
+  <div class="make">Walker Classic Variety</div>
+  <div class="price">£2.74</div>
+  <button class="btn">Add</button>
+</div>
+
+<div class="img">
+  <a target="_blank" href="crisps/popcorn.jpeg">
+    <img src="crisps/popcorn.jpeg" alt="Popcorn">
+  </a>
+  
+  <div class="desc2">200g</div>
+  <div class="make">Butterkist Toffee Popcorn</div>
+  <div class="price">£1.80</div>
+  <button class="btn">Add</button>
+
+</div>
+
+<div class="img">
+  <a target="_blank" href="crisps/ryvita.jpeg">
+    <img src="crisps/ryvita.jpeg" alt="Ryvita">
+  </a>
+  
+  <div class="desc3">200g</div>
+  <div class="make">Ryvita Original Crackerbread</div>
+  <div class="price">£1.08</div>
+  <button class="btn">Add</button>
+
+</div>
+
+<div class="img">
+  <a target="_blank" href="crisps/pringles.jpeg">
+    <img src="crisps/pringles.jpeg" alt="Pringles">
+  </a>
+  
+  <div class="desc4">190g</div>
+  <div class="make">Pringles Original</div>
+  <div class="price">£1.80/div>
+  <button class="btn">Add</button>
+</div>
+</div>
 </div>
 
 

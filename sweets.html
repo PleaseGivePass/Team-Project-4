@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sweets & Chocolate - GivePass</title>
-  <meta charset="utf-8">
+   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -10,6 +9,7 @@
   <link href="css/custom.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
+  
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!--[if IE]>
@@ -17,6 +17,14 @@
 <![endif]-->
 
   <style>
+
+   article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+html, body, div, h3, p, ul, li,img {
+  margin:0;
+  padding:0;
+
+}
 
   .jumbotron {
   
@@ -36,21 +44,17 @@
   }
   
   
-  .navbar-inner{
   
-    background: none ;
-    filter : none :
-    border: none ;
-    box-shadow: none ;
-  
-  
-  }
 
   .nav li  {
 
-    width: 140px;
+  width: 150px;
+
+
     
   }
+
+  
 
   .btn-group {
 
@@ -76,14 +80,131 @@
     left: 180px;
 
   }
+
+.container{
+
+  width:900px ;
+  margin: 30px auto 0;
+}
+
+.header h3 {
+
+  color: #ffcc00
+  text: center;
+  font-size: 18px;
+  word-spacing: 2px;
+  text-shadow:1px 1px 2px #000;
+}
+  
+  .gallery ul{
+
+    list-style:  none;
+
+  }
+
+.gallery li {
+
+  float: left;
+  margin: 20px;
+}  
+  
+  #content {
+  background:#a7blc5;
+  background: linear-gradient(to top, #848c9c 0%, #687080 50%, #a7blc5 100%);
+  padding-top:10px;
+  padding-bottom:10px;
+  overflow:hidden;
+}
+
+.gallery img {
+
+    display: block;
+    padding: 20px;
+}
+
+.thumbnail {
+
+  margin-left: 50px;
+  
+
+}
+
+.img {
+
+  width: 
+}
+
 .navgation {
 
   margin-left: 200px;
 }
-  
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 190px;
+} 
 
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc  {
+    
+    padding-top: 137px;
+    text-align: center;
+}
+
+div.price {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.make {
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+
+.btn {
+
+  background-color: green;
   
-  
+}
+
+div.desc2 {
+
+  padding-top: 137px;
+    text-align: center;
+}
+
+div.desc3 {
+
+  padding-top: 137px;
+    text-align: center;
+}
+
+div.desc4 {
+
+  padding-top: 137px;
+    text-align: center;
+}
+
+
+
+
+
 
   </style>
 
@@ -98,7 +219,6 @@
      <button style="font-size:28px">Qty Cart<i class="fa fa-qtycart"></i></button>
      
       <button style="font-size:28px;color:red">Cart<i class="fa fa-shopping-cart"></i></button>
-
 
     </div>
 
@@ -139,6 +259,7 @@
     </div>
 
     <ul class="nav navbar-nav">
+      
       <li class="active"><a href="PleaseGivePass.html">Home</a></li>
       
       <li class="dropdown">
@@ -204,6 +325,57 @@
     </ul>
   </div>
 </nav>
+</div>
+
+<div class="container">
+<header><h3></h3></header>
+
+<div class="img">
+  <a target="_blank" href="sweets&biscu/kitkat.jpeg">
+    <img src="sweets&biscu/kitkat.jpeg" alt="Kitkat">
+  </a>
+  
+  <div class="desc2">8pk</div>
+  <div class="make">Kitkat</div>
+  <div class="price">£1.60</div>
+  <button class="btn">Add</button>
+
+</div>
+
+<div class="img">
+  <a target="_blank" href="sweets&biscu/harribo.jpeg">
+    <img src="sweets&biscu/harribo.jpeg" alt="Harribo">
+  </a>
+  
+  <div class="desc3">1pk</div>
+  <div class="make">Harribo Starmix</div>
+  <div class="price">£0.58</div>
+  <button class="btn">Add</button>
+
+</div>
+
+<div class="img">
+   <a target="_blank" href="sweets&biscu/macvits.jpeg">
+    <img src="sweets&biscu/macvits.jpeg" alt="MacVitie's">
+  </a>
+  <div class="desc">300g</div>
+  <div class="make">McVitie's</div>
+  <div class="price">£1.05</div>
+  <button class="btn">Add</button>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="sweets&biscu/maynards.jpeg">
+    <img src="sweets&biscu/maynards.jpeg" alt="Maynards">
+  </a>
+  
+  <div class="desc4">190g</div>
+  <div class="make">Maynards Wine Gums</div>
+  <div class="price">£1.55</div>
+  <button class="btn">Add</button>
+</div>
+</div>
 </div>
 
 

@@ -11,12 +11,19 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-
-  <!--[if IE]>
+<!--[if IE]>
   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
   <style>
+
+   article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+html, body, div, h3, p, ul, li,img {
+  margin:0;
+  padding:0;
+
+}
 
   .jumbotron {
   
@@ -36,21 +43,17 @@
   }
   
   
-  .navbar-inner{
   
-    background: none ;
-    filter : none :
-    border: none ;
-    box-shadow: none ;
-  
-  
-  }
 
   .nav li  {
 
-    width: 140px;
+  width: 150px;
+
+
     
   }
+
+  
 
   .btn-group {
 
@@ -77,12 +80,130 @@
 
   }
 
-  .navgation {
+.container{
+
+  width:900px ;
+  margin: 30px auto 0;
+}
+
+.header h3 {
+
+  color: #ffcc00
+  text: center;
+  font-size: 18px;
+  word-spacing: 2px;
+  text-shadow:1px 1px 2px #000;
+}
+  
+  .gallery ul{
+
+    list-style:  none;
+
+  }
+
+.gallery li {
+
+  float: left;
+  margin: 20px;
+}  
+  
+  #content {
+  background:#a7blc5;
+  background: linear-gradient(to top, #848c9c 0%, #687080 50%, #a7blc5 100%);
+  padding-top:10px;
+  padding-bottom:10px;
+  overflow:hidden;
+}
+
+.gallery img {
+
+    display: block;
+    padding: 20px;
+}
+
+.thumbnail {
+
+  margin-left: 50px;
+  
+
+}
+
+.img {
+
+  width: 
+}
+
+.navgation {
 
   margin-left: 200px;
 }
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 190px;
+} 
 
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc  {
+    
+    padding-top: 105px;
+    text-align: center;
+}
+
+div.price {
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.make {
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+
+}
+
+.btn {
+
+  background-color: green;
   
+}
+
+div.desc2 {
+
+  padding-top: 105px;
+    text-align: center;
+}
+
+div.desc3 {
+
+  padding-top: 105px;
+    text-align: center;
+}
+
+div.desc4 {
+
+  padding-top: 86px;
+    text-align: center;
+}
+
+
+
+
+
   
 
   </style>
@@ -95,10 +216,12 @@
 
     <div class="btn-group btn-group-lg" role="group" aria-label="...">
 
+
      <button style="font-size:28px">Qty Cart<i class="fa fa-qtycart"></i></button>
      
-      <button style="font-size:28px;color:red">Cart<i class="fa fa-shopping-cart"></i></button>
+      <button style="font-size:28px">Cart<i class="fa fa-shopping-cart"></i></button>
 
+ 
 
     </div>
 
@@ -204,6 +327,54 @@
     </ul>
   </div>
 </nav>
+</div>
+
+<div class="container">
+<div class="img">
+  <a target="_blank" href="spirit&mix/jackDaniels.jpeg">
+    <img src="spirit&mix/jackDaniels.jpeg" alt="Whiskey">
+  </a>
+  <div class="desc">70cl</div>
+  <div class="make">Jack Daniel's</div>
+  <div class="price">£25.00</div>
+  <button class="btn">Add</button>
+</div>
+
+<div class="img">
+  <a target="_blank" href="spirit&mix/cognac.jpeg">
+    <img src="spirit&mix/cognac.jpeg" alt="Lager">
+  </a>
+  
+  <div class="desc2">70cl</div>
+  <div class="make">Couvoisier Cognac</div>
+  <div class="price">£20.00</div>
+  <button class="btn">Add</button>
+
+</div>
+
+<div class="img">
+  <a target="_blank" href="spirit&mix/twist.jpeg">
+    <img src="spirit&mix/twist.jpeg" alt="Twist">
+  </a>
+  
+  <div class="desc3">70cl</div>
+  <div class="make">Caribbean Twist Strawberry</div>
+  <div class="price">£2.50</div>
+  <button class="btn">Add</button>
+
+</div>
+
+<div class="img">
+  <a target="_blank" href="spirit&mix/smirnoff.jpeg">
+    <img src="spirit&mix/smirnoff.jpeg" alt="Smirnoff">
+  </a>
+  
+  <div class="desc4">250ml</div>
+  <div class="make">Smirnoff Mango Sorbet Frozen</div>
+  <div class="price">£2.00</div>
+  <button class="btn">Add</button>
+</div>
+</div>
 </div>
 
 </body>
